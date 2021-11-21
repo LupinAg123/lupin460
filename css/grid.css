@@ -1,0 +1,196 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.bg-pri{
+	background: red;
+}
+.bg-grey{
+	background: grey;
+}
+.bg-white{
+	background: white;
+	color: aqua;
+}
+.text-right{
+	text-align: right;
+	
+}
+
+.text-center{
+	text-align:center;
+	margin: 0 auto;
+	
+}
+.center{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%)
+}
+.align-center{
+	align-self: center;
+}
+.just-center{
+	justify-content: center;
+}
+.just-right{
+	justify-content: flex-end;
+}
+.align-mid{
+	align-content: center;
+}
+.container{
+	max-width:  1440px;
+	margin: 0 auto;
+	position: relative;
+	display: block;
+	overflow: hidden;
+	
+}
+.container-fuil{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+/*	height: 100vh;*/
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.block{
+	display: block;
+}
+.row02{
+	display: flex;
+	
+}
+.wrapper01{
+	width: 100%;
+    margin: 0 auto;
+    position: relative;
+    min-height: 100%;
+    padding: 10px;
+}
+.wrapper02{
+	max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    min-height: 100%;
+    padding: 30px;
+}
+.cot30{
+	width: 32%;
+	height: 200px;
+	
+
+}
+.col01{
+	width: 8.33%;
+}
+.col02{
+	width: 16.66%;
+}
+.col03{
+	width: 25%;
+}
+.col04{
+	width: 33.33%;
+}
+.col05{
+	width: 41.66%;
+}
+.col06{
+	width: 50%;
+}
+.col07{
+	width: 58.33%;
+}
+.col08{
+	width: 66.66%;
+}
+.col09{
+	width: 75%;
+}
+.col10{
+	width: 83.33%;
+}
+.col11{
+	width: 91.66%;
+}
+.col12{
+	width: 100%;
+}
+.p-1{
+	padding: 4px;
+}
+.p-3{
+	padding: 12px;
+}
+.p-5{
+	padding: 20px;
+}
+.p-6{
+	padding: 24px;
+}
+.pt-1{
+	padding-top: 4px;
+}
+.pb-1{
+	padding-bottom: 4px;
+}
+.pr-1{
+	padding-right: 4px;
+}
+.pl-1{
+	padding-left: 4px;
+}
+.pl-3{
+	padding-left: 12px;
+}
+
+.px-1{
+	padding:0 4px;
+}
+
+.py-1{
+	padding: 4px 0;
+}
+.py-3{
+	padding: 12px 0;
+}
+.px-3{
+	padding:0 12px;
+}
+.prb-3{
+	padding: 0 12px 12px 0;
+}
+.pr-3{
+	padding-right: 12px;
+}
+.py-6{
+	padding: 24px 0;
+}
+.pt-100px{
+	padding-top: 100px;
+}
+.m-1{
+	margin: 4px;
+}
+
+@media screen and ( max-width:415px){
+	.col01,.col02,.col03,.col04,.col05,.col06,.col07,.col08,.col09,.col10,.col11,.col12{
+		width: 100%;
+	}
+	.col-sm-3{
+		width: 25% !important;
+	}
+	.col-sm-6{
+		width: 50% !important;
+	}
+	.col00{
+		width: 0 !important;
+	}
+}
